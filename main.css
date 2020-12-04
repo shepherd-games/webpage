@@ -27,9 +27,9 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(231, 231, 231);
+    background-color: #dfe0e1;
     overflow-x: hidden;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-left: 10px;
     padding-right: 10px;
     border: 1px;
@@ -38,26 +38,34 @@ body {
   .sidenav a {
     padding: 16px 8px 6px 16px;
     text-decoration: none;
-    font-size: 16px;
+    /* font-size: 14px; */
     color: #000000;
     display: block;
     font-family: Open Sans;
 
   }
 
-  /* Social buttons 
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 10px;
-    height: 10px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+  .logoimg {
     border-radius: 50%;
   }
 
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  } */
+  .intro {
+    font-size: 10px;
+    padding: 0px;
+    margin-top: 0px;
+  }
+
+  /* Social buttons */
+  .sociallinks
+  {
+    position: absolute;
+    bottom: 20px;
+    width: 50%;
+  }
+  
+  /* Align pages in side nagivation */
+  .pages
+  {
+    padding-left: 75px;
+    font-size: 16px;
+  }
