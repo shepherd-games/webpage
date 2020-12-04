@@ -1,9 +1,9 @@
 body {
-    font-family: helvetica;
+    font-family: Open Sans;
   }
   
   ul {
-    font-family: monospace;
+    font-family: Open Sans;
   }
 
   li {
@@ -20,3 +20,44 @@ body {
     font-weight: bold;
   }
   
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(231, 231, 231);
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px;
+  }
+  
+  .sidenav a {
+    padding: 16px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    font-family: Open Sans;
+
+  }
+
+  /* Social buttons 
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } */
